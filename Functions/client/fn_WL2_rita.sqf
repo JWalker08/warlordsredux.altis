@@ -4,7 +4,7 @@ if !(alive player) exitWith {};
 _v = (objectParent player);
 
 // Vars
-_v setVariable ["altCeiling", 2000];
+_v setVariable ["altCeiling", 1500];
 _v setVariable ["isBettyBitching", false];
 _v setVariable ["landingGear", true];
 _v setVariable ["Incomming", []];
